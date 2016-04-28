@@ -87,6 +87,8 @@ app.controller('mainCtrl', function($scope) {
         }
 
         $scope.transactionToEdit = null;
+
+        $('#editModal').modal('hide');
     };
 
     $scope.cancelEdit = function() {

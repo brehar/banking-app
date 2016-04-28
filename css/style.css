@@ -13,3 +13,7 @@
 .red-text {
     color: red;
 }
+
+input[type="number"] {
+    width: 150px !important;
+}
